@@ -1,0 +1,173 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+}
+
+#main{
+    height: 100%;
+    width: 100%;
+    background-color: #222;
+}
+
+#text{
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    height: 70%;
+    width: 60%;
+    background-color: brown;
+    display: flex;
+}
+
+#left{
+    height: 100%;
+    width: 50%;
+    background-color: rgba(29, 103, 103, 0.207);
+    background-image: url(https://media.istockphoto.com/photos/outdoor-basketball-board-picture-id1431077229?k=20&m=1431077229&s=170667a&w=0&h=MNhrcOaFmopTzPfHK5e8f-eWf5H3PYPe2wkYcjZW7nY=);
+    background-size: cover;
+    background-position: bottom;
+    position: relative;
+}
+
+#left a{
+    position: absolute;
+    font-family: Gilroy;
+    text-decoration: none;
+    color: rgb(26, 17, 17);
+    top: 3%;
+    left: 10%;
+}
+
+i{
+    font-weight: 100;
+}
+
+#left i{
+    position: absolute;
+    right: 8%;
+    top: 3%;
+    color: rgb(18, 8, 8);
+    font-size: large;
+}
+
+#text1{
+    position: absolute;
+    font-size: 24px;
+    font-family:Gilroy;
+    text-align: right;
+    height: 30%;
+    width: 100%;
+    bottom: -11%;
+    right: 6%;
+    color: rgb(26, 22, 22);
+    line-height: 1;
+}
+
+h1{
+    font-weight: 500;
+}
+
+#right{
+    height: 100%;
+    width: 50%;
+    background-color: #9caeac;
+    position: relative;
+}
+
+#plus{
+    position: absolute;
+    top: 89%;
+    left: 10%;
+    color: rgb(26, 13, 13);
+}
+
+#plus h1{
+    font-weight: 200;
+}
+
+#r1{
+    position: absolute;
+    height: 25%;
+    width: 30%;
+    left: 40%;
+    background-image: url(https://images.unsplash.com/photo-1518063319789-7217e6706b04?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTJ8fGJhc2tldGJhbGx8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60);
+    background-size: cover;
+    background-position: center;
+}
+
+#r2{
+    position: absolute;
+    top: 29%;
+    left: 10%;
+    height: 45%;
+    width: 35%;
+    background-image: url(https://i.pinimg.com/564x/c8/75/27/c8752707b500119e05dbe620cfdea51f.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+#r3{
+    position: absolute;
+    height: 25%;
+    width: 40%;
+    top: 75%;
+    left: 50%;
+    background-image: url(https://i.pinimg.com/736x/d1/8a/db/d18adb437b6854326e98ad3eeae7b1d2.jpg);
+    background-size: cover;
+    background-position: bottom;
+}
+
+#r4{
+    position: absolute;
+    top: 42%;
+    left: 50%;
+    transform: translate(20%, -50%);
+    height: 15%;
+    width: 17%;
+    border: 2px solid black;
+    border-radius: 50%;
+}
+
+#r41 {
+    position: absolute;
+    text-transform: uppercase;
+    color: black;
+    top: 37%;
+    left: 20%;
+    height: 100%;
+    width: 100%;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+h3{ 
+    font-size: 10px;
+}
+
+#r5{
+    position: absolute;
+    height: 70%;
+    width: 10%;
+    right: 5%;
+}
+
+h2{
+    position: absolute;
+    font-family: voyage;
+    letter-spacing: 1px;
+    word-spacing: 10px;
+    font-size: 40px;
+    white-space: nowrap;
+    top: 50%;
+    left:35%;
+    transform: translate(-50%, -50%) rotate(-90deg);
+}
